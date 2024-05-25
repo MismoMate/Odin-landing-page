@@ -8,10 +8,25 @@ body{
     width: 100%;
     display: flex;
     flex-direction: column;    
-    align-items: center;
-
+    justify-content: space-evenly;
+    
 }
 
-.body{
-    flex: 1 1 auto;
+.body-content{
+    background-color: lightblue;
+}
+
+.navbar{    
+    display: flex;
+    gap: 15px;
+    background-color: #1f2937;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+}
+
+li:nth-child(2){
+    margin-left: auto;
 }
