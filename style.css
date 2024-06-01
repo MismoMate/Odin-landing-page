@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
+    box-sizing: border-box;    
 }
 
 body{
@@ -9,4 +9,24 @@ body{
     display: flex;
     flex-direction: column;    
     align-items: center;
+    justify-content: center;
+    padding: 0;
+}
+.header, .body, .footer{
+    padding-left: 150px;
+    padding-right: 150px; 
+}
+.header{
+    display: flex;
+    gap: 10px;    
+    background-color: #1F2937;
+    align-self: stretch;    
+}
+
+li{
+    list-style-type: none;
+}
+
+li:nth-child(2){
+    margin-left: auto;
 }
