@@ -93,6 +93,33 @@ img{
     text-decoration: none;
     border-radius: 12px;
 }
+
+.body_content{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.card_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.card_con{
+    display: flex;
+    flex-direction: column;    
+}
+.card_con > p{    
+    max-width: 150px;
+    text-align: center;
+}
+.card{
+    height: 150px;
+    width: 140px;
+    border: 2px solid #0099FF;
+    border-radius: 15px;
+}
+
 .footer{
     flex-basis: 25px;
 }
