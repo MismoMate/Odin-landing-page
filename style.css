@@ -97,21 +97,33 @@ img{
 .body_content{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    
+}
+
+h2{
+    align-self: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .card_container{
     display: flex;
     justify-content: space-between;
+    flex-basis: 0;
+    flex-grow: 1;  
 }
 
 .card_con{
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;
+    gap: 10px;   
+    background-color: yellow;
+    flex-grow: 1;
 }
 .card_con > p{    
     max-width: 150px;
     text-align: center;
+    
 }
 .card{
     height: 150px;
@@ -119,7 +131,11 @@ img{
     border: 2px solid #0099FF;
     border-radius: 15px;
 }
-
+.quote{
+    flex-basis: 0;
+    flex-grow: 1;
+    background-color: red;
+}
 .footer{
     flex-basis: 25px;
 }
