@@ -117,8 +117,8 @@ h2{
     display: flex;
     flex-direction: column;
     gap: 10px;   
-    background-color: yellow;
-    flex-grow: 1;
+    flex-grow: .5;
+    margin-bottom: 50px;
 }
 .card_con > p{    
     max-width: 150px;
@@ -133,9 +133,37 @@ h2{
 }
 .quote{
     flex-basis: 0;
-    flex-grow: 1;
-    background-color: red;
+    flex-grow: 1.5;
+    background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+.call_to{
+    display: flex;
+    flex-basis: 0;
+    flex-grow: 1.5;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    background-color: #0099FF;
+    border: white solid 2px;
+    border-radius: 10px;
+    margin-bottom: 50px;
+}
+.call{
+    margin-left: 100px;
+    width: 100px;
+    height: 30px;
+    background-color: #0099FF;
+    border-color: white;
+    color: white;
+    border-width: 1px;
+    border-radius: 10px;
+    border-radius: 50px;
 }
 .footer{
     flex-basis: 25px;
+    text-align: center;
 }
